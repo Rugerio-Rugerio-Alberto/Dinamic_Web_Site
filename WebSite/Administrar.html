@@ -1,0 +1,286 @@
+<html>
+
+  <html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Aplicacion Web </title>
+  <link rel="stylesheet" type="text/css" href="/Proyecto/CSS/estilo(4).css">
+    
+  <style type="text/css">
+  
+
+  .eli {
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Vibur', cursive;
+    font-family: 'Abel', sans-serif;
+    opacity: .95;
+    height:800px ;
+}
+
+.eo{
+    width: 450px;
+    min-height: 500px;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+}
+
+.eo.con {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.head-form{
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+
+.head-form h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #3e403f;
+}
+
+.head-form p {letter-spacing: 0.05em;}
+
+.form-inpu{
+    background: #fff;
+    color: #333;
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+}
+#txt-input[class="form-input"]{
+    width: 240px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+    outline: none;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+}
+.form-inpu[id="txt-input"] {width: 250px;}
+
+.form-inpu:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+}
+
+
+#log-in{
+    display: inline-block;
+    color: white;
+    width: 280px;
+    height: 50px;
+    padding: 0 20px;
+    background:#ff5722;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+
+
+
+/**Footer**/
+
+    @keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-100000px 50000px;}
+    }
+
+    .twinkling {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: transparent url(http://localhost/Proyecto/img/pu.jpg) repeat top center;
+        z-index:1;
+         animation: move-twink-back 400s linear infinite;
+    }
+
+    h1 {
+        color: darken(main, 40);
+        font-size: -4px;
+        font-family: 'lust-display-didone', serif;
+    }
+
+    h3 {
+        color: darken(main, 40);
+        font-size: 25px;
+        line-height: 10px;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-family: 'futura-pt', serif;
+    }
+
+    hr {
+        width: 100px;
+        margin: 0.5em auto 1em;
+        border: none;
+        height: 2px;
+        background: white;
+    }
+    
+    p {
+        font-size: 12px;
+        line-height: 15px;
+        font-family: 'futura-pt', sans-serif;
+        font-style: italic;
+        font-weight: 300; 
+    }
+
+
+    footer {
+        position: relative;
+        z-index: 3;
+        text-align: center;
+        color: white;
+        padding: 12em 0 5em;
+    }
+    
+  </style>
+</head>
+
+
+
+<body>
+  
+    <header class="Hea">
+        <button class="Inicio" type="submit"><a href="Index.html">Salir</a></button>
+       
+        <h1 class="Didactic">¡ Didactic World !</h1>
+        <div class="flexsearch">
+            <div class="flexsearch--wrapper">
+                <form class="flexsearch--form" action="" method="post">
+                    <div class="flexsearch--input-wrapper">
+                        <input class="flexsearch--input" type="search" placeholder="search">
+                    </div>
+                    <input class="flexsearch--submit" type="submit" value="&#10140;"/>
+                </form>
+            </div>
+        </div>
+        
+    </header><br><br>
+
+    
+ 
+    <div id="Consulta">
+        <h2>Consulta</h2>
+        <p>¡Nuestros Mejores Productos!</p>
+  
+       <form action="http://localhost/Proyecto/WebSite/Eliminar.php" method="Post">
+            <h3>Categoría:</h3>
+            <select name="consult">
+                <option >OFICINA</option>
+                <option >DIDACTICO</option>
+                <option >PRODUCTO</option> 
+            </select><br>
+            <button name="buscar">Consultar</button>
+        </form>
+      </div><br><br>
+
+
+    
+    <div class="Globos">
+
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            width="800px" height="600px" viewBox="0 0 800 600" enable-background="new 0 0 800 600" xml:space="preserve">
+        <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="174.7899" y1="186.34" x2="330.1259" y2="186.34" gradientTransform="matrix(0.8538 0.5206 -0.5206 0.8538 147.9521 -79.1468)">
+            <stop  offset="0" style="stop-color:#FFC035"/>
+            <stop  offset="0.221" style="stop-color:#F9A639"/>
+            <stop  offset="1" style="stop-color:#E64F48"/>
+        </linearGradient>
+        <circle fill="url(#SVGID_1_)" cx="266.498" cy="211.378" r="77.668"/>
+        <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="290.551" y1="282.9592" x2="485.449" y2="282.9592">
+            <stop  offset="0" style="stop-color:#FFA33A"/>
+            <stop  offset="0.0992" style="stop-color:#E4A544"/>
+            <stop  offset="0.9624" style="stop-color:#00B59C"/>
+        </linearGradient>
+        <circle fill="url(#SVGID_2_)" cx="388" cy="282.959" r="97.449"/>
+        <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="180.3469" y1="362.2723" x2="249.7487" y2="362.2723">
+            <stop  offset="0" style="stop-color:#12B3D6"/>
+            <stop  offset="1" style="stop-color:#7853A8"/>
+        </linearGradient>
+        <circle fill="url(#SVGID_3_)" cx="215.048" cy="362.272" r="34.701"/>
+        <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="367.3469" y1="375.3673" x2="596.9388" y2="375.3673">
+            <stop  offset="0" style="stop-color:#12B3D6"/>
+            <stop  offset="1" style="stop-color:#7853A8"/>
+        </linearGradient>
+        <circle fill="url(#SVGID_4_)" cx="482.143" cy="375.367" r="114.796"/>
+        <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="365.4405" y1="172.8044" x2="492.4478" y2="172.8044" gradientTransform="matrix(0.8954 0.4453 -0.4453 0.8954 127.9825 -160.7537)">
+            <stop  offset="0" style="stop-color:#FFA33A"/>
+            <stop  offset="1" style="stop-color:#DF3D8E"/>
+        </linearGradient>
+        <circle fill="url(#SVGID_5_)" cx="435.095" cy="184.986" r="63.504"/>
+        </svg>
+    
+    
+        <div class="container">
+            <h2>Modificar</h2>
+            <form class="ro" action="http://localhost/Proyecto/WebSite/Eliminar(1).php" method="POST">
+                <input type="num" name="Code" placeholder="CODIGO"><br>
+                <input type="text" name="Categoria" placeholder="Categoria">
+                <input type="text" name="Producto" placeholder="Producto">
+                <input type="text" name="Marca" placeholder="Marca">
+                 <input type="text" name="Precio" placeholder="Precio">
+                <input type="text" name="Existencia" placeholder="Exixtencia"><br><br><br>
+                <button class="bu"type="submit" name="modificar"> <span>Modificar</span></button>
+            </form>
+        </div>
+    </div>
+    
+
+
+    <div class="eli"><br><br>
+        <div class="overlay">
+    
+          <form class="eo" action="http://localhost/Proyecto/WebSite/Eliminar(1).php" method="POST">
+            <div class="con">
+              <header class="head-form">
+                <h2>Eliminar</h2>
+                <p>Registro de la Base de Datos</p>
+              </header><br>
+              <div class="field-set">
+                <input class="form-input" id="txt-input" type="num" name="registro" placeholder="Codigo" required><br><br>
+                <button id="log-in" name="eliminar"> Eliminar </button>
+              </div>
+            </div>
+          </form>
+        </div>
+    </div> <br><br><br><br>
+
+
+
+    <main>
+
+    <div class="twinkling"></div>
+    <footer>
+      <h1>---------</h1>
+      <h3>Gracias por visitarnos</h3><br>
+      <hr />
+      <p>"Didactic World"<br>
+        La papeleria de alta Calidad<br>
+      </p>
+    </footer>
+
+    </main>
+</body>
+</html>

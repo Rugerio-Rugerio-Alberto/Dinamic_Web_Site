@@ -1,0 +1,396 @@
+<html>
+
+  <html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Aplicacion Web </title>
+  <link rel="stylesheet" type="text/css" href="/Proyecto/CSS/estilo(1).css">
+  
+  <style type="text/css">
+  
+.Hea {
+background-color: #33B9EF;
+}
+
+.Inicio {
+  float: left;
+  padding: 0 30px 0 30px;
+  text-align: center;
+  color: #888;
+  background-color: white; 
+  border: none;
+  margin: 25px;
+  font-size: 30px;
+  font-family: ginebra;
+}
+
+.flexsearch--wrapper {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  background: #33B9EF;
+  margin: 0;
+  position: static;
+}
+  
+.flexsearch--form {
+  overflow: hidden;
+  position: relative;
+}
+  
+.flexsearch--input-wrapper {
+  padding: 0 66px 0 0; 
+  overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 100%;
+}
+
+
+.flexsearch {
+  padding: 0 10px 0 200px;
+}
+
+.flexsearch--input {
+  -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 60px;
+    padding: 0 46px 0 10px;
+	border-color: #888;
+    border-radius: 30px; /* (height/2) + border-width */
+    border-style: solid;
+	border-width: 5px;
+    margin-top: 15px;
+    color: #333;
+    font-family: 'Helvetica', sans-serif;
+	font-size: 26px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+ 	
+.flexsearch--submit {
+    position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+    padding: 0;
+    border: none;
+	margin-top: 55px; /* margin-top + border-width */
+    margin-right: 50px; /* border-width */
+	background: transparent;
+    color: #888;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #888;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+  color: #888; 
+}
+
+.flexsearch--submit:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #33B9EF;
+}
+
+
+
+.Didactic {
+  float: left;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 45px;
+  text-align: center;
+  padding: 0 200px 0 200px;
+  background-color: #33B9EF;
+}
+
+/**Formulario 1**/
+
+#Consulta {
+box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+  text-align: center;
+  border-radius: 5px;
+  margin: 3em auto;
+  background: rgba(255, 255, 255, 0.95);
+  height: 400px;
+  width: 600px;
+  padding: 1em;
+  background-color: #DEDEDC;
+}
+
+#Consulta h2 {
+  background: url(https://static.pexels.com/photos/5782/nature-flowers-vintage-plant.jpg);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  font-family: "Playfair Display", serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  letter-spacing: 2px;
+  font-size: 3.5em;
+  margin: 0;
+}
+#Consulta p {
+  font-family: "Farsan", cursive;
+  margin: 3px 0 1.5em 0;
+  font-size: 1.3em;
+  color: #7d7d7d;
+}
+
+#Consulta input {
+  
+  width: 210px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 7px;
+  background: #eee;
+  padding: 1em 2em;
+  outline: none;
+  border: none;
+  color: #222;
+  transition: 0.3s linear;
+}
+::placeholder {
+  color: #999;
+}
+#Consulta input:focus {
+  background: rgba(0, 0, 333, 0.1);
+}
+
+#Consulta button {
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 146, 202, 0.75) 0%,
+    rgba(145, 149, 251, 0.86) 100%
+  );
+  box-shadow: 0 9px 25px -5px #df91fb;
+  font-family: "Abel", sans-serif;
+  padding: 0.5em 1.9em;
+  margin: 2.3em 0 0 0;
+  border-radius: 7px;
+  font-size: 1.4em;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  transition: 0.3s linear;
+}
+#Consulta button:hover {
+  transform: translatey(2px);
+}
+#Consulta button:active {
+  transform: translatey(5px);
+}
+
+/**Footer**/
+
+    @keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-100000px 50000px;}
+    }
+
+    .twinkling {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: transparent url(http://localhost/Proyecto/img/pu.jpg) repeat top center;
+        z-index:1;
+         animation: move-twink-back 400s linear infinite;
+    }
+
+    h1 {
+        color: darken(main, 40);
+        font-size: -4px;
+        font-family: 'lust-display-didone', serif;
+    }
+
+    h3 {
+        color: darken(main, 40);
+        font-size: 25px;
+        line-height: 10px;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-family: 'futura-pt', serif;
+    }
+
+    hr {
+        width: 100px;
+        margin: 0.5em auto 1em;
+        border: none;
+        height: 2px;
+        background: white;
+    }
+    
+    p {
+        font-size: 12px;
+        line-height: 15px;
+        font-family: 'futura-pt', sans-serif;
+        font-style: italic;
+        font-weight: 300; 
+    }
+
+
+    footer {
+        position: relative;
+        z-index: 3;
+        text-align: center;
+        color: white;
+        padding: 12em 0 5em;
+    }
+    
+  </style>
+</head>
+
+
+
+<body>
+  
+    <header class="Hea">
+        <button class="Inicio" type="submit"><a href="Index.html">Salir</a></button>
+       
+        <h1 class="Didactic">¡ Didactic World !</h1>
+        <div class="flexsearch">
+            <div class="flexsearch--wrapper">
+                <form class="flexsearch--form" action="" method="post">
+                    <div class="flexsearch--input-wrapper">
+                        <input class="flexsearch--input" type="search" placeholder="search">
+                    </div>
+                    <input class="flexsearch--submit" type="submit" value="&#10140;"/>
+                </form>
+            </div>
+        </div>
+        
+    </header><br><br>
+
+    
+ 
+    <div id="Consulta">
+        <h2>Consulta</h2>
+        <p>¡Nuestros Mejores Productos!</p>
+  
+       <form action="http://localhost/Proyecto/WebSite/Pedido.php" method="Post">
+            <h3>Categoría:</h3>
+            <select name="consult">
+                <option >OFICINA</option>
+                <option >DIDACTICO</option>
+                <option >PRODUCTO</option> 
+            </select><br>
+            <button name="buscar">Consultar</button>
+        </form>
+      </div><br><br>
+
+
+    <div id="container">
+        <h1>&bull; !Realiza tu Compra! &bull;</h1>
+
+        <div class="underline"></div>
+
+        <div class="icon_wrapper" style="text-align: center;">
+                <img src="/Proyecto/img/descarga.png" alt="Logo principal">
+        </div>
+
+        <form  id="contact_form" action="http://localhost/Proyecto/WebSite/Pedido(1).php" method="Post">
+    
+            <div class="name">
+                <label for="name"></label>
+                <input type="text" placeholder="My name is" name="name" id="name_input" required>
+            </div>
+
+            <div class="email">
+                <label for="email"></label>
+                <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+            </div>
+
+            <div class="telephone">
+                <label for="name"></label>
+                <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+            </div>
+
+            <div class="subject">
+                <label for="subject"></label>
+                <select placeholder="Subject line" name="subject" id="subject_input" required>
+                  
+                    <option>BORRADOR</option>
+                    <option>LAMPARA</option>
+                    <option>ESCRITORIO</option>
+                    <option>PERFORADORA</option>
+                    <option>TIJERAS</option>
+                    <option>MARCADOR</option>
+                    <option>PEGAMENTO</option>
+                    <option>LIBRETA(P)</option>
+                    <option>COSEDORA</option>
+                    <option>CINTA</option>
+                    <option>ENGRAPADORA</option>
+                    <option>BROCHES</option>
+
+                </select>
+            </div>
+
+            <div class="name">
+                <label for="name"></label>
+                <input type="text" placeholder="Products" name="num" id="name_input" required>
+            </div>
+
+            <div class="email">
+                <label for="email"></label>
+                <input type="text" placeholder="Postal Code" name="postal" id="email_input" required>
+            </div>
+
+
+            <div class="telephone">
+                <label for="name"></label>
+                <input type="text" placeholder="Address" name="direccion" id="telephone_input" required>
+            </div>
+
+            <div class="message">
+                <label for="message"></label>
+                <textarea name="message" placeholder=" Message" id="message_input" cols="30" rows="5" required></textarea>
+            </div>
+        
+            <div class="submit">
+               <input type="submit" value="Send Message" id="form_button" name="register" />
+            </div>
+        </form>
+
+    </div>
+
+    <main>
+
+    <div class="twinkling"></div>
+    <footer>
+      <h1>---------</h1>
+      <h3>Gracias por visitarnos</h3><br>
+      <hr />
+      <p>"Didactic World"<br>
+        La papeleria de alta Calidad<br>
+      </p>
+    </footer>
+
+    </main>
+</body>
+</html>

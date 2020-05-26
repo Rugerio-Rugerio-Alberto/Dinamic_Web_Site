@@ -1,0 +1,528 @@
+
+body {
+  background: #F2F3EB;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+  float: right;
+  width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+  font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+}
+
+.message {
+  float: none;
+}
+
+.name {
+  float: left;
+  width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #474544;
+}
+
+:-moz-placeholder { 
+  color: #474544;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
+
+.Hea {
+    background-color: #33B9EF;
+    }
+    
+    .Inicio {
+      float: left;
+      padding: 0 30px 0 30px;
+      text-align: center;
+      color: #888;
+      background-color: white; 
+      border: none;
+      margin: 25px;
+      font-size: 30px;
+      font-family: ginebra;
+    }
+    
+    .flexsearch--wrapper {
+      height: auto;
+      width: auto;
+      max-width: 100%;
+      overflow: hidden;
+      background: #33B9EF;
+      margin: 0;
+      position: static;
+    }
+      
+    .flexsearch--form {
+      overflow: hidden;
+      position: relative;
+    }
+      
+    .flexsearch--input-wrapper {
+      padding: 0 66px 0 0; 
+      overflow: hidden;
+    }
+    
+    .flexsearch--input {
+      width: 100%;
+    }
+    
+    
+    .flexsearch {
+      padding: 0 10px 0 200px;
+    }
+    
+    .flexsearch--input {
+      -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+         height: 60px;
+        padding: 0 46px 0 10px;
+        border-color: #888;
+        border-radius: 30px; /* (height/2) + border-width */
+        border-style: solid;
+        border-width: 5px;
+        margin-top: 15px;
+        color: #333;
+        font-family: 'Helvetica', sans-serif;
+        font-size: 26px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+         
+    .flexsearch--submit {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        border: none;
+        margin-top: 55px; /* margin-top + border-width */
+        margin-right: 50px; /* border-width */
+        background: transparent;
+        color: #888;
+        font-family: 'Helvetica', sans-serif;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    
+    .flexsearch--input:focus {
+      outline: none;
+      border-color: #888;
+    }
+    
+    .flexsearch--input:focus.flexsearch--submit {
+      color: #888; 
+    }
+    
+    .flexsearch--submit:hover {
+      color: #888;
+      cursor: pointer;
+    }
+    
+    ::-webkit-input-placeholder {
+      color: #888;  
+    }
+    
+    input:-moz-placeholder {
+      color: #33B9EF;
+    }
+    
+    
+    
+    .Didactic {
+      float: left;
+      color: white;
+      font-family: 'Helvetica', sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 45px;
+      text-align: center;
+      padding: 0 200px 0 200px;
+      background-color: #33B9EF;
+    }
+    
+    /**Formulario 1**/
+    
+    #Consulta {
+    box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+      text-align: center;
+      border-radius: 5px;
+      margin: 3em auto;
+      background: rgba(255, 255, 255, 0.95);
+      height: 400px;
+      width: 600px;
+      padding: 1em;
+      background-color: #DEDEDC;
+    }
+    
+    #Consulta h2 {
+      background: url(https://static.pexels.com/photos/5782/nature-flowers-vintage-plant.jpg);
+    
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    
+      font-family: "Playfair Display", serif;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      letter-spacing: 2px;
+      font-size: 3.5em;
+      margin: 0;
+    }
+    #Consulta p {
+      font-family: "Farsan", cursive;
+      margin: 3px 0 1.5em 0;
+      font-size: 1.3em;
+      color: #7d7d7d;
+    }
+    
+    #Consulta input {
+      
+      width: 210px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 7px;
+      background: #eee;
+      padding: 1em 2em;
+      outline: none;
+      border: none;
+      color: #222;
+      transition: 0.3s linear;
+    }
+    ::placeholder {
+      color: #999;
+    }
+    #Consulta input:focus {
+      background: rgba(0, 0, 333, 0.1);
+    }
+    
+    #Consulta button {
+      background-image: linear-gradient(
+        to left,
+        rgba(255, 146, 202, 0.75) 0%,
+        rgba(145, 149, 251, 0.86) 100%
+      );
+      box-shadow: 0 9px 25px -5px #df91fb;
+      font-family: "Abel", sans-serif;
+      padding: 0.5em 1.9em;
+      margin: 2.3em 0 0 0;
+      border-radius: 7px;
+      font-size: 1.4em;
+      cursor: pointer;
+      color: #ffffff;
+      font-size: 1em;
+      outline: none;
+      border: none;
+      transition: 0.3s linear;
+    }
+    #Consulta button:hover {
+      transform: translatey(2px);
+    }
+    #Consulta button:active {
+      transform: translatey(5px);
+    }
+
+
+    /**Formulario Modificar**/
+
+
+    *{
+        margin:0;
+        padding:0;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+      }
+      
+      .Globos{
+        font-family: 'Open Sans', sans-serif;
+        background:#e2e2e2;
+      }
+      
+      svg{
+        top:10px;
+        left:140px;
+      }
+      
+      .container{
+        position:relative;
+        top:-20px;
+        left:35%;
+        display:block;
+        margin-bottom:80px;
+        width:500px;
+        height:800px;
+        background:#fff;
+        border-radius:5px;
+        overflow:hidden;
+        z-index:1;
+      }
+      
+      h2{
+        padding:40px;
+        font-weight:lighter;
+        text-transform:uppercase;
+        color:#414141;
+      }
+      
+      .ro input{
+        display:block;
+        height:50px;
+        width:90%;
+        margin:0 auto;
+        border:none;
+        color:#ff5722;
+        border-bottom:1px solid #ff5722;
+        
+      }
+      
+      
+      
+      .email,
+      .pwd{
+        position:relative;
+        z-index:1;
+        border-bottom:1px solid rgba(0,0,0,.1);
+        padding-left:20px;
+        font-family: 'Open Sans', sans-serif;
+        text-transform:uppercase;
+        color:#858585;
+        font-weight:lighter;
+        -webkit-transition:.5s;
+        transition:.5s;
+      }
+      
+      
+      
+      .link{
+        text-decoration:none;
+        display:inline-block;
+        margin:27px 28%;
+        text-transform:uppercase;
+        color:#858585;
+        font-weight:lighter;
+        -webkit-transition:.5s;
+        transition:.5s;
+      }
+      
+      
+      
+      .bu{
+        cursor:pointer; 
+        display:inline-block;
+        float:left;
+        width:250px;
+        height:60px;
+        margin-top:-10px;
+        border:none;
+        font-family: 'Open Sans', sans-serif;
+        text-transform:uppercase;
+        color:#fff;
+        -webkit-transition:.5s;
+        transition:.5s;
+        background:#ff5722;
+        }
+
+        span{
+          position:absolute;
+          display:block;
+          margin:-10px 20%;
+          -webkit-transform:translateX(0);
+          transform:translateX(0);
+          -webkit-transition:.5s;
+          transition:.5s;
+        }
+      
+        
