@@ -21,15 +21,15 @@ if (isset($_POST['register'])) {
 	    if ($resultado) {
             echo" <SCRIPT LANGUAGE='Javascript'  TYPE='text/Javascript'> alert('-- Tu pedido fue realizado --' )
             window.location='Carrito.html' </SCRIPT>";
-            } else {
+        } else {
                 echo" <SCRIPT LANGUAGE='Javascript'  TYPE='text/Javascript'> alert('-- Verifica tus datos --' )
                 window.location='Carrito.html' </SCRIPT>";
-            }
-            mysqli_free_result($resultado);
-            mysqli_close($conex);
-        } else {
+        }
+        mysqli_free_result($resultado);
+        mysqli_close($conex);
+    } else {
             echo" <SCRIPT LANGUAGE='Javascript'  TYPE='text/Javascript'> alert('-- Complete los Campos --' )
             window.location='Carrito.html' </SCRIPT>";  
-        }
     }
+}
 ?>

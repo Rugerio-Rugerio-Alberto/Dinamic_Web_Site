@@ -93,6 +93,7 @@ body {
 	font-family: sans-serif;
 	background: #2c3e50;
 }
+
 h1{
 	text-align: center;
 	margin: 40px 0 40px;
@@ -102,6 +103,7 @@ h1{
 	text-shadow: 2px 2px 4px #000000;
 	font-family: 'Cherry Swash', cursive;
 }
+
 p {
     position: absolute;
     bottom: 20px;
@@ -124,13 +126,17 @@ span {
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
+		text-align: center;
+		color: #615C5C;
 	}
 }
+
 
 .anuncio{
 	border: 1px solid #B5B5B5;
 	background-color: #F5F5F5;
 	margin-bottom: 2rem;
+	
 }
 
 @media (min-width: 768px){
@@ -143,13 +149,13 @@ span {
 
 .boton{
 	color: #ffffff;
-	font-weight: 700;
+	font-weight: 800px;
 	text-decoration: none;
 	font-size: 1.8rem;
-	padding: 1rem 3rem;
-	margin-top: 3rem;
+	padding: 5rem 4rem;
+	margin-top: 10rem;
 	display: inline-block;
-	text-align: center;
+	
 	border:none;
 	display: block;
 	flex: 0 0 100%;
@@ -168,6 +174,7 @@ span {
 
 .boton-amarillo{
 	background-color: #E08709;
+	
 }
 
 .boton-verde{

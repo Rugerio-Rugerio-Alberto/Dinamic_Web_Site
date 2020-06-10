@@ -216,122 +216,6 @@ textarea {
   }
 }
 
-.Hea {
-    background-color: #33B9EF;
-    }
-    
-    .Inicio {
-      float: left;
-      padding: 0 30px 0 30px;
-      text-align: center;
-      color: #888;
-      background-color: white; 
-      border: none;
-      margin: 25px;
-      font-size: 30px;
-      font-family: ginebra;
-    }
-    
-    .flexsearch--wrapper {
-      height: auto;
-      width: auto;
-      max-width: 100%;
-      overflow: hidden;
-      background: #33B9EF;
-      margin: 0;
-      position: static;
-    }
-      
-    .flexsearch--form {
-      overflow: hidden;
-      position: relative;
-    }
-      
-    .flexsearch--input-wrapper {
-      padding: 0 66px 0 0; 
-      overflow: hidden;
-    }
-    
-    .flexsearch--input {
-      width: 100%;
-    }
-    
-    
-    .flexsearch {
-      padding: 0 10px 0 200px;
-    }
-    
-    .flexsearch--input {
-      -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
-         height: 60px;
-        padding: 0 46px 0 10px;
-        border-color: #888;
-        border-radius: 30px; /* (height/2) + border-width */
-        border-style: solid;
-        border-width: 5px;
-        margin-top: 15px;
-        color: #333;
-        font-family: 'Helvetica', sans-serif;
-        font-size: 26px;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-    }
-         
-    .flexsearch--submit {
-        position: absolute;
-        right: 0;
-        top: 0;
-        display: block;
-        width: 60px;
-        height: 60px;
-        padding: 0;
-        border: none;
-        margin-top: 55px; /* margin-top + border-width */
-        margin-right: 50px; /* border-width */
-        background: transparent;
-        color: #888;
-        font-family: 'Helvetica', sans-serif;
-        font-size: 40px;
-        line-height: 60px;
-    }
-    
-    .flexsearch--input:focus {
-      outline: none;
-      border-color: #888;
-    }
-    
-    .flexsearch--input:focus.flexsearch--submit {
-      color: #888; 
-    }
-    
-    .flexsearch--submit:hover {
-      color: #888;
-      cursor: pointer;
-    }
-    
-    ::-webkit-input-placeholder {
-      color: #888;  
-    }
-    
-    input:-moz-placeholder {
-      color: #33B9EF;
-    }
-    
-    
-    
-    .Didactic {
-      float: left;
-      color: white;
-      font-family: 'Helvetica', sans-serif;
-      font-size: 30px;
-      font-weight: bold;
-      line-height: 45px;
-      text-align: center;
-      padding: 0 200px 0 200px;
-      background-color: #33B9EF;
-    }
     
     /**Formulario 1**/
     
@@ -502,7 +386,7 @@ textarea {
       .bu{
         cursor:pointer; 
         display:inline-block;
-        float:left;
+        float: left;
         width:250px;
         height:60px;
         margin-top:-10px;

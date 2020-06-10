@@ -9,7 +9,249 @@
     
   <style type="text/css">
   
+/**Header**/
 
+.bus *, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.bus ::-webkit-input-placeholder {
+  color: #56585b;
+}
+
+.bus ::-moz-placeholder {
+  color: #56585b;
+}
+
+.bus :-moz-placeholder {
+  color: #56585b;
+}
+
+.bus {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bus {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background: url(/Proyecto/img/52.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: #0a0a0b;
+  overflow: hidden;
+}
+
+.bus ul, nav{
+  list-style: none;
+  padding: 0;
+}
+
+.bus a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.bus a:hover {
+  opacity: 1;
+}
+
+.bus h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 1.5rem;
+}
+
+.bus i {
+  font-size: 1.3rem;
+}
+
+.bus .logo {
+    font-size: 1.3rem;
+    color: #FFFFFF;
+}
+
+.bus header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 10px 100px 0;
+}
+
+.bus header nav ul {
+  display: flex;
+}
+
+.bus header nav li{
+  margin: 0 15px;
+}
+
+.bus header nav li:first-child{
+  margin-left: 0; 
+}
+
+.bus header nav li:last-child{
+  margin-right: 0;  
+}
+
+.bus a.btn {
+  color: #fff;
+  padding: 10px;
+  border: 1px solid rgba(255,255,255,0.5);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.bus a.btn:hover {
+  background: #d73851;
+  border: 1px solid #d73851;
+  color: #fff;
+}
+
+.bus .cover  {
+  height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.05)), to(rgba(0,0,0,0)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0) 100%);
+  padding: 20px 50px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.bus .flex-form input[type="submit"] {
+  background: #ef3f5a;
+  border: 1px solid #ef3f5a;
+  color: #fff;
+  padding: 0 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.bus .flex-form input[type="submit"]:hover {
+  background: #d73851;
+  border: 1px solid #d73851;
+}
+
+.bus .flex-form {
+  display: -webkit-box;
+  display: flex;
+  z-index: 10;
+  position: relative;
+  width: 500px;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.bus .flex-form > * {
+  border: 0;
+  padding: 0 0 0 10px;
+  background: #fff;
+  line-height: 50px;
+  font-size: 1rem;
+  border-radius: 0;
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+.bus input[type="search"] {
+  flex-basis: 500px;
+}
+
+.bus #madeby {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 25px 100px;
+  color: #fff;
+}
+
+@media all and (max-width:800px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  .bus.flex-form {
+    width: 100%;
+  }
+
+  .businput[type="search"] {
+    flex-basis: 100%;
+  }
+
+  .bus .flex-form > * {
+    font-size: 0.9rem;
+  }
+
+  .bus header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    padding: 10px !important;
+  }
+
+  .bus header h2 {
+    margin-bottom: 15px;
+  }
+
+  .bus h1 {
+    font-size: 2rem;
+  }
+
+  .bus .cover {
+    padding: 20px;
+  }
+
+  .bus #madeby {
+    padding: 30px 20px;
+  }
+}
+
+@media all and (max-width:360px) {
+  .bus header nav li{
+    margin: 0 10px;
+  }
+
+  .bus .flex-form {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+
+  .bus input[type="search"] {
+    flex-basis: 0;
+  }
+
+  .bus label {
+    display: none;
+  }
+}
+
+/**Formulario 4**/
   .eli {
     background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
@@ -98,8 +340,6 @@
     letter-spacing: 0.05em;
 }
 
-
-
 /**Footer**/
 
     @keyframes move-twink-back {
@@ -109,7 +349,7 @@
 
     .twinkling {
         position: absolute;
-        height: 100%;
+        height: 65%;
         width: 100%;
         background: transparent url(http://localhost/Proyecto/img/pu.jpg) repeat top center;
         z-index:1;
@@ -163,22 +403,41 @@
 
 <body>
   
-    <header class="Hea">
-        <button class="Inicio" type="submit"><a href="Index.html">Salir</a></button>
-       
-        <h1 class="Didactic">¡ Didactic World !</h1>
-        <div class="flexsearch">
-            <div class="flexsearch--wrapper">
-                <form class="flexsearch--form" action="" method="post">
-                    <div class="flexsearch--input-wrapper">
-                        <input class="flexsearch--input" type="search" placeholder="search">
-                    </div>
-                    <input class="flexsearch--submit" type="submit" value="&#10140;"/>
-                </form>
-            </div>
-        </div>
-        
-    </header><br><br>
+    
+  <div class="bus">
+
+    <header>
+      
+      <div  style="text-align: center;"><br>
+        <img src="/Proyecto/img/descarga.png"><br>
+      </div>
+      
+      <nav><br>
+        <ul>
+          <li>
+            <a class="btn" href="Servicios.html" >Salir</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="cover">
+      <h1>╚╔   DIDACTIC WORLD  ╗╝</h1><br>
+      <form  class="flex-form">
+        <label for="from">
+          <i class="ion-location"></i>
+        </label>
+        <input type="search" placeholder="Where do you want to go?">
+        <input type="submit" value="Buscar">
+      </form>
+      <div id="madeby">
+        <span>
+          Team <a href="Contacto.html" target="_blank">Didactic World</a>
+        </span>
+      </div>
+    </div>
+
+  </div><br><br><br>
 
     
  
